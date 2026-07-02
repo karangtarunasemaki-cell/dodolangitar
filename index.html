@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="DODOLAN GITAR - Website penjualan gitar akustik online termurah dan terlengkap">
+    <title>DODOLAN GITAR | Jual Gitar Akustik</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts: Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header-content">
+            <h1 class="logo">DODOLAN GITAR</h1>
+            <nav class="nav">
+                <a href="#beranda">Beranda</a>
+                <a href="#produk">Produk</a>
+                <a href="#informasi">Informasi Toko</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="beranda" class="hero">
+            <div class="container hero-content">
+                <h2>Temukan Nada Terbaikmu</h2>
+                <p>Koleksi gitar akustik premium dengan kualitas terbaik dan harga terjangkau.</p>
+                <a href="#produk" class="btn-primary">Lihat Koleksi Kami</a>
+            </div>
+        </section>
+
+        <section id="produk" class="products container">
+            <h2 class="section-title">Katalog Produk</h2>
+            <div class="product-grid">
+                <!-- Produk 1 -->
+                <div class="product-card">
+                    <div class="product-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1550291652-6ea9114a47b1?q=80&w=1000&auto=format&fit=crop')">
+                    </div>
+                    <div class="product-info">
+                        <h3>Yamaha F310 Akustik</h3>
+                        <p class="price">Rp 1.500.000</p>
+                        <button class="btn-buy" onclick="beliGitar('Yamaha F310 Akustik', 'Rp 1.500.000')">Beli
+                            Sekarang</button>
+                    </div>
+                </div>
+
+                <!-- Produk 2 -->
+                <div class="product-card">
+                    <div class="product-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1514649923863-ceaf75b770ab?q=80&w=1000&auto=format&fit=crop')">
+                    </div>
+                    <div class="product-info">
+                        <h3>Cort AD810 OP</h3>
+                        <p class="price">Rp 1.750.000</p>
+                        <button class="btn-buy" onclick="beliGitar('Cort AD810 OP', 'Rp 1.750.000')">Beli
+                            Sekarang</button>
+                    </div>
+                </div>
+
+                <!-- Produk 3 -->
+                <div class="product-card">
+                    <div class="product-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1563604015694-52fae7a006db?q=80&w=1000&auto=format&fit=crop')">
+                    </div>
+                    <div class="product-info">
+                        <h3>Mandalika Akustik Elektrik</h3>
+                        <p class="price">Rp 1.200.000</p>
+                        <button class="btn-buy" onclick="beliGitar('Mandalika Akustik Elektrik', 'Rp 1.200.000')">Beli
+                            Sekarang</button>
+                    </div>
+                </div>
+
+                <!-- Produk 4 -->
+                <div class="product-card">
+                    <div class="product-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1605020420620-20c943cc4669?q=80&w=1000&auto=format&fit=crop')">
+                    </div>
+                    <div class="product-info">
+                        <h3>Fender CD-60S</h3>
+                        <p class="price">Rp 2.800.000</p>
+                        <button class="btn-buy" onclick="beliGitar('Fender CD-60S', 'Rp 2.800.000')">Beli
+                            Sekarang</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="informasi" class="info bg-dark">
+            <div class="container info-grid">
+                <div class="info-card">
+                    <h3>Tentang Toko</h3>
+                    <p><strong>DODOLAN GITAR</strong></p>
+                    <p>Jalan Sawit UH 1 Nomor 52<br>Semaki, Umbulharjo<br>Yogyakarta</p>
+                </div>
+                <div class="info-card">
+                    <h3>Jam Operasional</h3>
+                    <p class="highlight">Buka 24 Jam</p>
+                    <p>Melayani pengiriman setiap hari tanpa libur.</p>
+                </div>
+                <div class="info-card">
+                    <h3>Mitra Pengiriman</h3>
+                    <div class="shipping-badges">
+                        <span>JNE</span>
+                        <span>J&T</span>
+                        <span>SiCepat</span>
+                        <span>POS Indonesia</span>
+                        <span>AnterAja</span>
+                        <span>Ninja Express</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 DODOLAN GITAR. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

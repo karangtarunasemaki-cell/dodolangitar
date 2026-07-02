@@ -1,0 +1,123 @@
+# System Design
+# DODOLAN GITAR
+
+## Deskripsi
+
+DODOLAN GITAR merupakan website toko online sederhana yang menjual berbagai gitar akustik.
+
+Website dibuat menggunakan:
+
+- HTML5
+- CSS3
+- JavaScript
+
+Tidak menggunakan database sehingga cocok untuk pembelajaran maupun website katalog sederhana.
+
+---
+
+## Tujuan Sistem
+
+- Menampilkan daftar gitar
+- Menampilkan harga
+- Memberikan informasi toko
+- Memudahkan pelanggan menghubungi penjual
+
+---
+
+## Arsitektur
+
+Browser
+      │
+      ▼
+index.html
+      │
+      ├── style.css
+      │
+      └── script.js
+
+---
+
+## Halaman
+
+### Beranda
+
+Berisi:
+
+- Banner
+- Produk
+- Informasi toko
+- Kontak
+
+---
+
+## Produk
+
+Setiap produk memiliki:
+
+- Foto
+- Nama
+- Harga
+- Tombol Beli
+
+---
+
+## Alur Sistem
+
+Pengunjung
+
+↓
+
+Membuka Website
+
+↓
+
+Melihat Produk
+
+↓
+
+Klik Tombol Beli
+
+↓
+
+Muncul Pesan Pemesanan
+
+↓
+
+Menghubungi Penjual
+
+---
+
+## Warna
+
+Primary
+Merah (#b30000)
+
+Secondary
+Putih (#ffffff)
+
+Accent
+Hitam (#222)
+
+---
+
+## Responsive
+
+Website dapat dibuka melalui:
+
+- Desktop
+- Laptop
+- Tablet
+- Smartphone
+
+---
+
+## Pengembangan Selanjutnya
+
+- Login Admin
+- Database MySQL
+- Keranjang Belanja
+- Checkout
+- Pembayaran QRIS
+- Upload Produk
+- Dashboard Admin
+- Tracking Pesanan

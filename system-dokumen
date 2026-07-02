@@ -1,0 +1,147 @@
+# Dokumentasi Sistem
+# DODOLAN GITAR
+
+## Nama Website
+
+DODOLAN GITAR
+
+---
+
+## Deskripsi
+
+Website sederhana untuk penjualan gitar akustik secara online.
+
+---
+
+## Teknologi
+
+HTML5
+
+CSS3
+
+JavaScript
+
+---
+
+## Fitur
+
+✔ Halaman Beranda
+
+✔ Daftar Produk
+
+✔ Harga Produk
+
+✔ Tombol Beli
+
+✔ Informasi Toko
+
+✔ Jam Operasional
+
+✔ Pengiriman
+
+✔ Footer
+
+---
+
+## Struktur Folder
+
+DODOLAN-GITAR/
+
+index.html
+
+style.css
+
+script.js
+
+system-design.md
+
+system-dokumen.md
+
+---
+
+## Cara Menjalankan
+
+1. Download project.
+
+2. Buka folder project.
+
+3. Klik dua kali file:
+
+index.html
+
+atau
+
+Klik kanan
+
+Open With Browser
+
+Website akan langsung berjalan.
+
+---
+
+## Informasi Toko
+
+Nama
+
+DODOLAN GITAR
+
+Alamat
+
+Jalan Sawit UH 1 Nomor 52
+
+Semaki
+
+Umbulharjo
+
+Yogyakarta
+
+Jam Operasional
+
+24 Jam
+
+---
+
+## Pengiriman
+
+JNE
+
+J&T
+
+SiCepat
+
+POS Indonesia
+
+AnterAja
+
+Ninja Express
+
+---
+
+## Browser yang Didukung
+
+Google Chrome
+
+Microsoft Edge
+
+Mozilla Firefox
+
+Opera
+
+Safari
+
+---
+
+## Pengembangan
+
+Versi berikutnya dapat ditambahkan:
+
+- Login
+- Registrasi
+- Admin Panel
+- Keranjang Belanja
+- Checkout
+- Pembayaran Online
+- Database
+- Riwayat Pembelian
+- Cetak Invoice
+- API Raja Ongkir
